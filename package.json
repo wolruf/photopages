@@ -10,6 +10,6 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "npm install gm && npm install exiftool && thumbsup --config config.json"
+    "build": "npm install gm && npm install exiftool-vendored && thumbsup --config config.json"
   }
 }
