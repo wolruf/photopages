@@ -2,14 +2,11 @@
   "name": "rgc24.wolruf.xyz",
   "version": "0.0.2",
   "private": true,
-  "dependencies": {
-    "thumbsup": "2.x"
-  },
   "engines": {
     "npm": "9.x",
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "npm install gm && npm install exiftool-vendored && thumbsup --config config.json"
+    "build": "npm install -g thumbsup && thumbsup --config config.json"
   }
 }
