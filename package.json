@@ -1,8 +1,7 @@
 {
   "name": "rgc24.wolruf.xyz",
   "version": "0.0.2",
-  "private": true
-  },
+  "private": true,
   "dependencies": {
     "thumbsup": "2.x"
   },
