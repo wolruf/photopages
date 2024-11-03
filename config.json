@@ -1,0 +1,15 @@
+{
+  "input": "./photos",
+  "output": "./dist",
+  "large-size": "2160",
+  "photo-quality": "100",
+  "cleanup": "true",
+  "sort-albums-by": "title",
+  "title": "My Photography",
+  "theme": "flow",
+  "embed-exif": "false",
+  "usage-stats": "false",
+  "gm-args": "strip",
+  "watermark": "watermark.png",
+  "watermark-position": "SouthEast"
+}
