@@ -11,7 +11,7 @@
   "engines": {
     "npm": "9.x",
     "yarn": "1.x"
-  }
+  },
   {
   "scripts": {
     "install:gm": "brew install graphicsmagick || sudo apt-get install -y graphicsmagick || echo 'Please install GraphicsMagick manually'",
@@ -19,5 +19,4 @@
     "setup": "npm run install:gm && npm run install:exiftool"
   }
 }
-
 }
