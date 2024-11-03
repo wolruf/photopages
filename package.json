@@ -9,7 +9,7 @@
     "thumbsup": "2.x"
   },
   "engines": {
-    "npm": "6.x",
+    "npm": "9.x",
     "yarn": "1.x"
   }
 }
