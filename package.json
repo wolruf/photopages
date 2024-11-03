@@ -10,8 +10,6 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "install:gm": "brew install graphicsmagick || sudo apt-get install -y graphicsmagick || echo 'Please install GraphicsMagick manually'",
-    "install:exiftool": "brew install exiftool || sudo apt-get install -y libimage-exiftool-perl || echo 'Please install ExifTool manually'",
-    "build": "npm run install:gm && npm run install:exiftool && thumbsup --config config.json"
+    "build": "npm install graphicsmagick && npm install exiftool && thumbsup --config config.json"
   }
 }
